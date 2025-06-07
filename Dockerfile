@@ -2,7 +2,7 @@ FROM python:3.11-slim
 
 RUN apt-get update && apt-get install -y git
 
-RUN git clone https://github.com/wooVDev/HolaMundo.git /app
+RUN git clone https://github.com/Andy777456/HolaMundo/tree/master/saludo.git /app
 
 WORKDIR /app
 
